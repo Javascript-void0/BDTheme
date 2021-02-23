@@ -1,4 +1,6 @@
-# Member Count Transparent Background
+# MemberCount Transparent Background
+
+### Download MemberCount [Here](https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount) from Arashiryuu's repo
 
 ### 1. Search for "Dark", or go to line 182 - `ctrl + f "dark"`
 
