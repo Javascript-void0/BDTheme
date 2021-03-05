@@ -8,3 +8,7 @@ Using Asteria's null clear - [Repo](https://github.com/Asteria5675/BetterDiscord
 
 ## No1: Midnight
 <img alt="no1" src="https://cdn.discordapp.com/attachments/805299221409824770/813061897498525716/unknown.png" width=750px>
+
+## No2: Sky
+<img alt="no2"
+src=https://cdn.discordapp.com/attachments/814293652234043392/817199155671203890/unknown.png" width=750px>
