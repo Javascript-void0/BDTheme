@@ -7,36 +7,71 @@
 @import url('https://asteria5675.github.io/BetterDiscordThemes/SourceCodes/src/null.css');
 
 :root {
-        --hue: 217 ;                /* Value between [0,360] */
-        --saturation: 0% ;         /* shade of grey(0%) to full color(100%) | Value is in (%) */
-        --lightness: 10% ;          /* 0% is black \ 100% is white | Value is in (%) >>>>Note advised to NOT use high ligtness<<<*/
-        --alpha: 0.35 ;                /* 1 is for solid color | follow the readme to understand alpha for transparency */
-        --hue-addition: 0 ;          
-        --saturation-addition: -1% ;  
-        --lightness-addition: -5% ; 
-        --alpha-addition: 0.5 ;       /* Additional alpha for main parts of Discord if making a semi transparent Discord from this theme */
+        --hue: 217 ;
+        --saturation: 0% ;
+        --lightness: 10% ;
+        --alpha: 0.35 ;
+        --hue-addition: 0 ;
+        --saturation-addition: -1% ;
+        --lightness-addition: -5% ;
+        --alpha-addition: 0.5 ;
         --image: url( https://cdn.discordapp.com/attachments/805299221409824770/811061506257977384/pexels-catia-matos-1072179.jpg );
-        --titlebar-alpha: 0.9; /* Top Title Bar */
-        --blur: 0px; /* 0px for no blur | Blur on image not desktop */    
+        --titlebar-alpha: 0.9;
+        --blur: 0px; 
         --accent-color: hsl(115, 33%, 63%);
-        --tooltip-background: var(--accent-color); /* Discord Default: #000 | Theme Default: var(--accent-color)*/
-        --tooltip-text: #dcddde;              /* Discord Default: #dcddde*/
-        --blurple: hsl(114, 18%, 45%);         /* Discord Default: #7289DA | Theme Default var(--accent-color) */
-        --mention-channel-background: 0.05;      /* Channel/Other User Mentions Opacity/Alpha*/
-        --is-mention: hsl(114, 18%, 45%);      /* Discord Default hsl(38, 96%, 54%); */
-        --is-mention-bg: hsl(114, 18%, 45%);    /* Discord Default hsl(38, 96%, 54%) */
-        --is-mention-alpha: 0.10;                /* Discord Default 0.05 */
-        --unread:  hsl(114, 18%, 45%) ; /* Discord Default: #fff */
-        --guild-selected: hsl(114, 18%, 45%); /* Discord Default: #fff | Only changed for users of BD*/
+        --tooltip-background: var(--accent-color); 
+        --tooltip-text: #dcddde;
+        --blurple: hsl(114, 18%, 45%);
+        --mention-channel-background: 0.05;
+        --is-mention: hsl(114, 18%, 45%);
+        --is-mention-bg: hsl(114, 18%, 45%);
+        --is-mention-alpha: 0.10;
+        --unread:  hsl(114, 18%, 45%) ; 
+        --guild-selected: hsl(114, 18%, 45%);
         --channel-selected: hsl(114, 23%, 26%); 
         --multiplier: (1.25);
         --track-alpha: 0.45;
         --floating-alpha: 1;
         --channeltextarea-background: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + 6%), calc(var(--lightness) + calc(var(--multiplier) * var(--lightness-addition))), calc(var(--alpha)));
-        --server-blurple: var(--blurple);        /*Background color of the Home Icon*/
-        --settings-selected:var(--accent-color); /*Discord Default: --background-modifier-selected | Theme Default: --accent-color*/
+        --server-blurple: var(--blurple);
+        --settings-selected:var(--accent-color);
         --friend-selected:var(--background-modifier-selected);
         --member-list-addition: 3.5%;
         --background-floating: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), calc(var(--floating-alpha)));
         --divider-alpha: 0.45;
+}
+
+.headerTop-3C2Zn0 {
+  min-height: 250px;
+  padding: 0;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 {
+  left: 0;
+  bottom: 0;
+  width: 250px;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA {
+  height: 250px !important;
+  width: 250px !important;
+}
+.avatarHint-1qgaV3 {width: 100%;height: 100%;border-radius: 0;}
+.avatarHintInner-Dco91E {
+  font-size: 0.4em;
+  text-shadow: 1px 1px 3px black;
+}
+.headerTop-3C2Zn0 foreignObject {mask: none !important;}
+.headerTop-3C2Zn0 rect {
+  border-radius: 0;
+  x: 0; y: 80;
+  width: 80px;
+  height: 3px;
+}
+.headerText-2sdzFM {padding-bottom: 5px;}
+
+.userPopout-3XzG_A {
+  background-color:  hsl(115, 33%, 63%);
+}
+
+.members-1998pB {
+  background-color: transparent !important;
 }
