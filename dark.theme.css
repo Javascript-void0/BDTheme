@@ -1,0 +1,82 @@
+/**
+  * @name dark theme... 🌙
+  * @description Dark Theme using Asteria's Null Theme
+  * @author Java
+  * @version 69.420.0
+  * @invite nk69jVbJMP
+  * @website https://github.com/Javascript-void0
+**/
+
+ @import url('https://asteria5675.github.io/BetterDiscordThemes/SourceCodes/src/null.css');
+
+:root {
+
+        --hue: 235 ;
+        --saturation: 16.9% ;
+        --lightness: 25.5% ;
+        --alpha: 0.0 ;
+        --hue-addition: 0 ;          
+        --saturation-addition: 0% ;  
+        --lightness-addition: -10.0% ; 
+        --alpha-addition: 0.5 ;
+        --image: url();
+        --titlebar-alpha: 0.5;
+        --blur: 0px;
+        --accent-color: rgb(112,119,147);
+        --tooltip-background: #000;
+        --tooltip-text: #dcddde;
+        --blurple: rgb(112,119,147);
+        --mention-channel-background: 0.05;
+        --is-mention: rgb(112,119,147);
+        --is-mention-bg:rgb(112,119,147);
+        --is-mention-alpha:0.05;
+        --unread: rgb(112,119,147);
+        --guild-selected: rgb(112,119,147);
+        --channel-selected: rgb(60,63,88);
+        --multiplier: (1.25);
+        --track-alpha: 0.45;
+        --floating-alpha: 1;
+        --channeltextarea-background: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + 6%), calc(var(--lightness) + calc(var(--multiplier) * var(--lightness-addition))), calc(var(--alpha)));
+        --server-blurple: var(--blurple);
+        --settings-selected:var(--background-modifier-selected);
+        --friend-selected:var(--background-modifier-selected);
+        --member-list-addition: 3.5%;
+        --background-floating: hsla(calc(var(--hue) + var(--hue-addition)), calc(var(--saturation) + var(--saturation-addition)), calc(var(--lightness) + var(--lightness-addition)), calc(var(--floating-alpha)));
+        --divider-alpha: 1;
+
+}
+
+.headerTop-3C2Zn0 {
+    min-height: 250px;
+    padding: 0;
+  }
+  .headerTop-3C2Zn0 .avatarWrapper-3H_478 {
+    left: 0;
+    bottom: 0;
+    width: 250px;
+  }
+  .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA {
+    height: 250px !important;
+    width: 250px !important;
+  }
+  .avatarHint-1qgaV3 {width: 100%;height: 100%;border-radius: 0;}
+  .avatarHintInner-Dco91E {
+    font-size: 0.4em;
+    text-shadow: 1px 1px 3px black;
+  }
+  .headerTop-3C2Zn0 foreignObject {mask: none !important;}
+  .headerTop-3C2Zn0 rect {
+    border-radius: 0;
+    x: 0; y: 80;
+    width: 80px;
+    height: 3px;
+  }
+  .headerText-2sdzFM {padding-bottom: 5px;}
+  
+  .userPopout-3XzG_A {
+    background-color:  rgb(54,56,76);
+  }
+  
+  .members-1998pB {
+    background-color: transparent !important;
+  }
