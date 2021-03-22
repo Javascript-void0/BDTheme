@@ -14,3 +14,6 @@ Using Asteria's null clear - [Repo](https://github.com/Asteria5675/BetterDiscord
 
 ## No3: Dark... 🌙
 <img alt="no3" src="https://i.imgur.com/hGky0yh.png" width=750px>
+
+## No3.5: Darkish
+<img alt="no3.5" src="https://i.imgur.com/Gkl1AmG.png" width=750px>
